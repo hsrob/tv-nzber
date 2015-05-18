@@ -42,8 +42,8 @@ require.config({
 declare module 'angular-ui-router' {
 }
 
-require(['jquery','angular', 'angular-animate','angular-aria','angular-cookies','angular-messages','angular-sanitize','angular-touch','angular-ui-router','angular-material','svg-morpheus','angular-material-icons','lodash','appmodule','routes'], 
-    function (jQuery:JQueryStatic, angular:ng.IAngularStatic, angularAnimate,angualarAria,angularCookies,angularMessages,angularSanitize,angularTouch,angularUiRouter,angularMaterial,svgMorpheus,angularMaterialIcons,lodash,appmodule,routes) {
+require(['jquery','angular', 'angular-animate','angular-aria','angular-cookies','angular-messages','angular-sanitize','angular-touch','angular-ui-router','angular-material','svg-morpheus','angular-material-icons','lodash','appmodule','routes', 'controllers/mainctrl'], 
+    function (jQuery:JQueryStatic, angular:ng.IAngularStatic, angularAnimate,angualarAria,angularCookies,angularMessages,angularSanitize,angularTouch,angularUiRouter,angularMaterial,svgMorpheus,angularMaterialIcons,lodash,appmodule,routes,mainCtrl) {
 //require(['jquery','angular','app.module'],
 //    function($:JQueryStatic, angular:ng.IAngularStatic,appModule:ng.IModule){
         $(function(){
