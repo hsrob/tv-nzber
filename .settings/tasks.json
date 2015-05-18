@@ -19,9 +19,9 @@
 	
 	// Under windows use tsc.exe. This ensures we don't need a shell.
 	"windows": {
-		"command": "tsc.exe"
+		"command": "tsc"
 	},
-	"isShellCommand": true,
+    "isShellCommand": true,
 	"args": [],
 	
 	// use the standard tsc problem matcher to find compile problems

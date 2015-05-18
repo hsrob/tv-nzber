@@ -65,5 +65,5 @@ require([
 	'./app/app.module'
 ], function (angular) {
 
-	angular.bootstrap(document, ['kx.application']);
+	angular.bootstrap(document, []);
 });
